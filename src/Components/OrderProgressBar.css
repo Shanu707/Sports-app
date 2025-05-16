@@ -1,0 +1,99 @@
+.progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .vertical-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .step {
+    position: relative;
+    margin-bottom: 20px; /* Adjust as needed */
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Start slightly lower */
+    animation: fadeInUp 0.6s ease-in-out forwards;
+  }
+  
+  .step:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .step:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  .step:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+  .step:nth-child(4) {
+    animation-delay: 0.7s;
+  }
+  
+  .step.completed .step-icon {
+    background-color: #fff;
+    color: white;
+  }
+  
+  .step-card {
+    width: 150px; /* Adjust as needed */
+    text-align: center;
+    color: white; /* White text color for readability */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transform transition */
+  }
+  
+  .step-card:hover {
+    transform: translateY(-5px); /* Lift card slightly on hover */
+  }
+  
+  .step-icon {
+    background-color: #595757;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+    font-weight: bold; /* Make the step number bold */
+    color: white; /* Ensure the text inside the icon is white */
+  }
+  
+  .step-label {
+    font-size: 14px;
+    font-weight: bold; /* Make the label bold */
+  }
+  
+  .vertical-progress-bar {
+    width: 10px; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    background-color: #d3d3d3; /* Light grey for better contrast */
+    position: relative;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .progress-bar-fill {
+    background-color: #007bff; /* Blue color for the filled part */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px; /* Match the parent radius */
+    transition: height 0.5s ease; /* Smooth height transition */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

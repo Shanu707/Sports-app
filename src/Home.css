@@ -1,0 +1,82 @@
+
+.navbar-dark {
+    background-color: #0d4073; 
+}
+
+
+.navbar-dark .navbar-brand {
+    color: #ca0e0e; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d216a6; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #bd4040; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    color: #570000; 
+}
+
+
+
+
+.dropdown-menu {
+    background-color: #bd40ad; 
+}
+.dropdown-item {
+    color: #790b0b; 
+}
+.dropdown-item:hover {
+    background-color: #495057; 
+}
+
+.dropdown-toggle {
+    color: #1aff66;
+}
+
+.dropdown-toggle:hover {
+    color: #dc0505; 
+}
+
+
+
+
+/* .home-container {
+    text-align: center;
+    margin-top: 10px;
+    background-image: url("https://wallpapercave.com/wp/wp2603380.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 265px;
+  }
+  
+  .home-container h2 {
+    font-size: 2.5rem; 
+    color: #326a99; 
+    margin-bottom: 20px; 
+  }
+  
+  .home-container p {
+    font-size: 1.2rem; 
+    color: #ded9d9; 
+    margin-bottom: 20px; 
+  }
+  
+  .home-container button {
+    font-size: 1.2rem; 
+    padding: 10px 20px; 
+    border: none;
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-container button:hover {
+    background-color: #a5a5a5; 
+  } */
+  
